@@ -23,4 +23,5 @@ class Solution:
         if root is None:return 0#inintialing root 
         if root.val==x:return root#printing current root node val
 
-        return 1+ self.count_nodes_in_subtree(root.left,x) + self.count_nodes_in_subtree(root.right,x)#
+        return 1+ self.count_nodes_in_subtree(root.left,x) + self.count_nodes_in_subtree(root.right,x)#coutning nodes in each subtree
+     
